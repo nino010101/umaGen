@@ -6,7 +6,7 @@
       </div>
       <div>
         <p class="exp">
-          非公式のお遊びツールです、誰かに迷惑になるようなものを生成するのはやめてね。
+          非公式のお遊びツールです。
           まだいないキャラはそのうち増えるかもしれないです。
         </p>
       </div>
@@ -21,22 +21,22 @@
         />
       </div>
     </section>
-    <section class="control">
-      <b-field label="ウマ娘の名前">
+    <section class="controler">
+      <b-field label="ウマ娘の名前" label-position="on-border">
         <b-input
           v-model="inputData.name"
           placeholder="トウカイテイオー"
           rounded
         ></b-input>
       </b-field>
-      <b-field label="アイコン">
+      <b-field label="アイコン" label-position="on-border">
         <b-select v-model="inputData.icon" placeholder="設定するアイコン">
           <option v-for="uma in umaList" :key="uma.id" :value="uma">
             {{ uma.name }}
           </option>
         </b-select>
       </b-field>
-      <b-field label="ヒミツの内容">
+      <b-field label="ヒミツの内容" label-position="on-border">
         <b-input
           v-model="inputData.body"
           type="textarea"
@@ -72,14 +72,14 @@ export default {
 </script>
 <style lang="scss" scoped>
 .heading,
-.control,
+.controler,
 .view {
-  margin: 12px 18px;
+  margin: 24px 18px;
 }
 .heading {
   width: 800px;
 }
-.control {
+.controler {
   width: 600px;
 }
 

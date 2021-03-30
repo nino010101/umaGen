@@ -92,3 +92,7 @@ sw.*
 # asset
 /assets/font/*
 /static/*
+
+#firebase
+.firebaserc
+firebase.json

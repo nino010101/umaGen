@@ -1,4 +1,19 @@
+@import '~bulma/sass/utilities/_all';
+
 @font-face {
   font-family: 'Wanpaku';
   src: url('../font/wanpaku.woff') format("woff");
 }
+
+$primary: #81d400;
+$primary-invert: findColorInvert($primary);
+$success: #81d400;
+$success-invert: findColorInvert($success);
+
+$colors: (
+  "primary": ($primary, $primary-invert),
+  "success": ($success, $success-invert)
+);
+
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
