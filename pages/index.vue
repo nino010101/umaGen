@@ -5,10 +5,7 @@
         <h1 class="title">ウマ娘のヒミツジェネレーター（仮）</h1>
       </div>
       <div>
-        <p class="exp">
-          非公式のお遊びツールです。
-          まだいないキャラはそのうち増えるかもしれないです。
-        </p>
+        <p class="exp">お遊びツールです。 常識の範囲で遊んでください。</p>
       </div>
     </section>
     <section class="view">
